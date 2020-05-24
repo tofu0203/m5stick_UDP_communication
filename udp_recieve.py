@@ -1,24 +1,3 @@
-# from socket import socket, AF_INET, SOCK_DGRAM
-
-# M_SIZE = 1024
-
-# HOST = '192.168.10.17'
-# PORT = 22222
-
-# # ソケットを用意
-# s = socket(AF_INET, SOCK_DGRAM)
-# # バインドしておく
-# s.bind((HOST, PORT))
-
-# while True:
-#     try:
-#         # 受信
-#         print("test")
-#         msg, address = s.recvfrom(M_SIZE)
-#         print(f"message: {msg}\nfrom: {address}")
-#     except KeyboardInterrupt:
-#         print('\n . . .\n')
-#         s.close()
 
 from socket import *
 
